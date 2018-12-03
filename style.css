@@ -4,7 +4,6 @@ h3,p,a
   color:white;
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
   text-align:center;
-  text-decoration: none;
 }
 body
 {
@@ -20,7 +19,11 @@ body
   background-image:
   linear-gradient(to right, #ff6e7f 0%, #bfe9ff 51%, #ff6e7f 100%)
 }
-.btn-grad:hover 
+.btn-grad:hover
 {
   background-position: right center;
+}
+a
+{
+  text-decoration:underline;
 }
