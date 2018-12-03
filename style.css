@@ -14,3 +14,7 @@ body
   float: left;
   padding-left: 0;
 }
+a
+{
+  text-decoration: none;
+}
