@@ -1,9 +1,10 @@
-h3,p
+h3,p,a
 {
   font-family: Hack,monospace;
   color:white;
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
   text-align:center;
+  text-decoration: none;
 }
 body
 {
@@ -13,8 +14,4 @@ body
 {
   float: left;
   padding-left: 0;
-}
-a
-{
-  text-decoration: none;
 }
