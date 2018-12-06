@@ -25,9 +25,23 @@ a
 }
 body {
   background-color:rgb(25,25,25);
-  text-align: center;
-  color:#fff;
-  padding-top:10em;
+  height: 100%;
+  font-family: 'tradegothiclt-bold', sans-serif;
 }
 
-* { color:#fff; text-decoration: none;}
+h1 {
+  font-size: 5em;
+  color: white;
+  text-transform: uppercase;
+}
+
+span {
+  border-right: .05em solid;
+  animation: caret 1s steps(1) infinite;
+}
+
+@keyframes caret {
+  50% {
+    border-color: transparent;
+  }
+}
