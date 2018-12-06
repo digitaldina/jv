@@ -86,7 +86,7 @@ bottom: 0;
 }
 @import "compass/css3";
 
-@import url(//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.min.css);
+@import url(http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.min.css);
 
 $ltblue:     #6eddd7;
 $blue:       #3dadd2;
