@@ -84,10 +84,15 @@ bottom: 0;
 .btn-5 {
   background-image: linear-gradient(to right, #ffecd2 0%, #fcb69f 51%, #ffecd2 100%);
 }
-
 @import "compass/css3";
 
 @import url(//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.min.css);
+
+$ltblue:     #6eddd7;
+$blue:       #3dadd2;
+
+$ltred:      #e0966f;
+$red:        #e1534f;
 
 $ltpurple:   adjust-hue($ltred,250);
 $purple:     adjust-hue($red,250);
@@ -122,6 +127,17 @@ body {
   }
 }
 
+
+.icon-blue {
+  background-color:$blue;
+  @include background-image(linear-gradient(top, $ltblue, $blue));
+}
+
+
+.icon-red {
+  background-color:$red;
+  @include background-image(linear-gradient(top, $ltred, $red));
+}
 
 .icon-purple {
   background-color:$purple;
