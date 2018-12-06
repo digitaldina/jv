@@ -98,12 +98,6 @@ $ltpurple:   adjust-hue($ltred,250);
 $purple:     adjust-hue($red,250);
 
 
-body {
-  @include background-image(linear-gradient(left top, transparentize(adjust-hue($ltblue,100),0.75), transparentize(adjust-hue($blue,350),0.5) ) );
-}
-
-
-
 .icon-btn {
   text-align:center;
   font-size:4em;
