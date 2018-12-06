@@ -23,3 +23,11 @@ a
 {
   text-decoration:underline;
 }
+body {
+  background-color:rgb(25,25,25);
+  text-align: center;
+  color:#fff;
+  padding-top:10em;
+}
+
+* { color:#fff; text-decoration: none;}
