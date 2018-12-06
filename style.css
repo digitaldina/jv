@@ -9,20 +9,6 @@ h3,p,a
   float: left;
   padding-left: 0;
 }
-.btn-grad
-{
-  background-image:
-  linear-gradient(to right, #ff6e7f 0%, #bfe9ff 51%, #ff6e7f 100%)
-  text-align:center;
-}
-.btn-grad:hover
-{
-  background-position: right center;
-}
-a
-{
-  text-decoration:underline;
-}
 body {
   background-color:rgb(25,25,25);
   height: 100%;
@@ -45,47 +31,56 @@ span {
     border-color: transparent;
   }
 }
-@import "bourbon";
-.button-container {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex-wrap: wrap;
+  width: 80vw;
+  margin: 0 auto;
+  min-height: 100vh;
+}
+.btn {
+  flex: 1 1 auto;
+  margin: 10px;
+  padding: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+ /* text-shadow: 0px 0px 10px rgba(0,0,0,0.2);*/
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+ }
+
+/* Demo Stuff End -> */
+
+/* <- Magic Stuff Start */
+
+.btn:hover {
+  background-position: right center; /* change the direction of the change here */
 }
 
-.btn {
-  display: block;
-  height: 50px;
-  width: 186px;
-  position: relative;
-  overflow: hidden;
-  text-decoration: none;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  color: white;
-  font-size: 14px;
-  text-align: center;
-  
-  &:after {
-    position: absolute;
-    content:'';
-    display: inline-block;
-    background: rgba(59,173,227,1);
-    background: linear-gradient(45deg, rgba(59,173,227,1) 0%, rgba(87,111,230,1) 25%, rgba(152,68,183,1) 51%, rgba(255,53,127,1) 100%);
-    height: 50px;
-    width: 372px;
-    z-index: -1;
-    transform: translateX(-280px);
-    transition: transform 400ms ease-in;
-  }
-  
-  &:hover {
-    &:after {
-      transform: translateX(-200px);
-    }
-  }
-  span {
-    position: relative;
-    top: 16px;
-  }
+.btn-1 {
+  background-image: linear-gradient(to right, #f6d365 0%, #fda085 51%, #f6d365 100%);
 }
+
+.btn-2 {
+  background-image: linear-gradient(to right, #fbc2eb 0%, #a6c1ee 51%, #fbc2eb 100%);
+}
+
+.btn-3 {
+  background-image: linear-gradient(to right, #84fab0 0%, #8fd3f4 51%, #84fab0 100%);
+}
+
+.btn-4 {
+  background-image: linear-gradient(to right, #a1c4fd 0%, #c2e9fb 51%, #a1c4fd 100%);
+}
+
+.btn-5 {
+  background-image: linear-gradient(to right, #ffecd2 0%, #fcb69f 51%, #ffecd2 100%);
+}
+
+/* Magic Stuff End -> */
