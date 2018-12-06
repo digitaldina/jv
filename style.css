@@ -41,7 +41,7 @@ a
 /* The typing effect */
 @keyframes typing {
   from { width: 0 }
-  to { width: 75% }
+  to { width: 45% }
 }
 
 /* The typewriter cursor effect */
