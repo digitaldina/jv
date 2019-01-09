@@ -1,1 +1,1 @@
-# temporary site for JV's Hackclub :)
+# Site for JV's Hackclub, WIP :)
