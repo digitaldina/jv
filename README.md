@@ -1,1 +1,1 @@
-# Site for JV's Hackclub, WIP :)
+# Site for JV's Hackclub, made with GatsbyJS and ❤️
