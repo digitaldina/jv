@@ -1,0 +1,13 @@
+html {
+	background-color: lavender;
+}
+
+div {
+    margin: 0px auto 0px auto;
+    text-align: center;
+    padding: 10px 0;
+    overflow: hidden;    
+}
+div img {
+    margin: 0px auto 0px auto;
+}
