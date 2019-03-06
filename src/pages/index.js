@@ -1,6 +1,5 @@
 import React from "react"
 import logo from "../../static/logo.png"
-import Img from "gatsby-image"
 import Banner from '@hackclub/banner'
 function Image(){
     return <div >
