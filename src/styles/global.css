@@ -1,5 +1,7 @@
 html {
 	background-color: lavender;
+	overflow: hidden;
+
 }
 
 div {
