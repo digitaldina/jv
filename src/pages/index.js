@@ -8,12 +8,6 @@ function Image(){
     <img src={logo}  alt="Kid typing behind laptop,
      with Hack Club, JV and a get a reminder sticker.
      click for link that sends you to join"/></a>
-            <div>
-          {/* © {new Date().getFullYear()}, */}
-           Built with
-          {` `}
-          <a href="https://www.gatsbyjs.org">GatsbyJS</a>{` `}and ❤️
-        </div>
     </div>
 }
 
