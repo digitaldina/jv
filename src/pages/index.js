@@ -1,5 +1,5 @@
 import React from "react"
-import logo from "../../static/logo.png"
+import logo from "../../static/logo.svg"
 import Banner from '@hackclub/banner'
 function Image(){
     return <div >
